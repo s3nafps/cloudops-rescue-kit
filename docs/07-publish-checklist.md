@@ -18,6 +18,7 @@ for file in scripts/*.sh; do bash -n "$file"; done
 
 - [ ] Run diagnostics on a safe test machine.
 - [ ] Run health check against example or test endpoint.
+- [ ] Run the demo lab in `docs/08-demo-lab.md`.
 - [ ] Run backup/restore against disposable test volume.
 - [ ] Add public screenshots under `screenshots/public/`.
 - [ ] Keep private/raw screenshots out of Git.

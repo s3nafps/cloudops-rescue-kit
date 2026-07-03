@@ -65,6 +65,19 @@ Validate a Compose file:
 ./scripts/docker-compose-preflight.sh monitoring/docker-compose.uptime-kuma.yml
 ```
 
+## First Demo Lab
+
+Use the demo lab to create real screenshots and a first case study without touching a client system:
+
+```bash
+docker compose -p cloudops-demo -f demo/docker-compose.demo.yml up -d
+./scripts/collect-diagnostics.sh
+./scripts/health-check.sh monitoring/endpoints.demo.txt
+./scripts/backup-compose-volumes.sh cloudops-demo
+```
+
+Full walkthrough: `docs/08-demo-lab.md`
+
 Start Uptime Kuma:
 
 ```bash

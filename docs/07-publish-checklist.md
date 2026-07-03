@@ -16,6 +16,9 @@ chmod +x scripts/*.sh
 for file in scripts/*.sh; do bash -n "$file"; done
 ```
 
+- [ ] Confirm GitHub Actions are green:
+  - Shell syntax
+  - Demo lab evidence
 - [ ] Run diagnostics on a safe test machine.
 - [ ] Run health check against example or test endpoint.
 - [ ] Run the demo lab in `docs/08-demo-lab.md`.

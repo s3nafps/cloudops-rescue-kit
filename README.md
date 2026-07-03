@@ -1,5 +1,8 @@
 # CloudOps Rescue Kit
 
+[![Shell syntax](https://github.com/s3nafps/cloudops-rescue-kit/actions/workflows/shell-syntax.yml/badge.svg)](https://github.com/s3nafps/cloudops-rescue-kit/actions/workflows/shell-syntax.yml)
+[![Demo lab evidence](https://github.com/s3nafps/cloudops-rescue-kit/actions/workflows/demo-lab.yml/badge.svg)](https://github.com/s3nafps/cloudops-rescue-kit/actions/workflows/demo-lab.yml)
+
 CloudOps Rescue Kit is a practical portfolio project for Cloud/DevOps Support work. It helps diagnose small VPS/Docker deployments, add lightweight monitoring, create backups, test restores, and document the result in a way a client or hiring manager can inspect.
 
 This is not a SaaS. It is a low-cost support toolkit built around real operational problems:
@@ -17,6 +20,7 @@ This is not a SaaS. It is a low-cost support toolkit built around real operation
 - `scripts/backup-compose-volumes.sh` - backs up Docker Compose-managed volumes.
 - `scripts/restore-volume-backup.sh` - restores a backup archive into a Docker volume after explicit confirmation.
 - `scripts/docker-compose-preflight.sh` - validates a Compose file and records preflight output.
+- `scripts/run-demo-lab.sh` - runs the full Docker demo evidence workflow.
 - `monitoring/docker-compose.uptime-kuma.yml` - lightweight uptime monitoring stack.
 - `docs/` - runbooks, screenshot checklist, case-study template, and safety notes.
 - `examples/` - incident report and client intake examples.
@@ -77,6 +81,12 @@ docker compose -p cloudops-demo -f demo/docker-compose.demo.yml up -d
 ```
 
 Full walkthrough: `docs/08-demo-lab.md`
+
+GitHub Actions also runs the demo automatically and uploads evidence artifacts:
+
+```text
+docs/09-ci-evidence.md
+```
 
 Start Uptime Kuma:
 

@@ -2,6 +2,7 @@
 reports/
 backups/
 tmp/
+.ci-artifacts/
 
 # Secrets and local environment
 .env

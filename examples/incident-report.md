@@ -1,4 +1,6 @@
-# Incident Report
+# Incident Report Template
+
+Copy this file when writing a real or demo incident report.
 
 ## Client / App
 

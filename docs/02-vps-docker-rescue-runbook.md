@@ -123,7 +123,11 @@ Record:
 
 ## 7. Handover
 
-Use `examples/incident-report.md`.
+Use:
+
+- `examples/incident-report.md` for the template
+- `examples/sample-incident-report.md` for a public filled example
+- `examples/sample-handover-note.md` for a public client handoff example
 
 Minimum handover:
 

@@ -23,7 +23,7 @@ This is not a SaaS. It is a low-cost support toolkit built around real operation
 - `scripts/run-demo-lab.sh` - runs the full Docker demo evidence workflow.
 - `monitoring/docker-compose.uptime-kuma.yml` - lightweight uptime monitoring stack.
 - `docs/` - runbooks, screenshot checklist, case-study template, and safety notes.
-- `examples/` - incident report and client intake examples.
+- `examples/` - client-ready sample deliverables and reusable templates.
 
 ## Who This Helps
 
@@ -136,6 +136,15 @@ Publish these screenshots in a case study:
 10. Final incident report.
 
 Use `docs/00-case-study-template.md` and `docs/01-screenshots-checklist.md`.
+
+## Example Deliverables
+
+These are public examples of what a scoped client handoff can look like:
+
+- `examples/sample-incident-report.md`
+- `examples/sample-handover-note.md`
+- `examples/incident-report.md` (template)
+- `examples/client-intake-form.md` (template)
 
 ## Example Service Mapping
 

@@ -1,0 +1,21 @@
+# Generated reports and local runtime data
+reports/
+backups/
+tmp/
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep public screenshots, but avoid private raw client screenshots by convention
+screenshots/private/

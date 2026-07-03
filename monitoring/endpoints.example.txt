@@ -1,0 +1,3 @@
+# name url expected_status
+homepage https://example.com 200
+api https://example.com/api/health 200

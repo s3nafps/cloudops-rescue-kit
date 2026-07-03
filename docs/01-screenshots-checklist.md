@@ -51,3 +51,9 @@ Use predictable names:
 - Use terminal zoom large enough to read.
 - Add short captions in the case study, not on top of the image.
 - Keep one private folder for raw screenshots and one public folder for redacted screenshots.
+
+Use these companion files when publishing:
+
+- `screenshots/public/README.md`
+- `screenshots/public/captions.md`
+- `docs/case-studies/sample-client-deliverables.md`

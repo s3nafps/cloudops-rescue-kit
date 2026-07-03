@@ -94,6 +94,12 @@ Published case study:
 docs/case-studies/ci-demo-lab.md
 ```
 
+Sample deliverables case study:
+
+```text
+docs/case-studies/sample-client-deliverables.md
+```
+
 Start Uptime Kuma:
 
 ```bash
@@ -145,6 +151,8 @@ These are public examples of what a scoped client handoff can look like:
 - `examples/sample-handover-note.md`
 - `examples/incident-report.md` (template)
 - `examples/client-intake-form.md` (template)
+- `screenshots/public/README.md` (public screenshot manifest)
+- `screenshots/public/captions.md` (case-study captions)
 
 ## Example Service Mapping
 

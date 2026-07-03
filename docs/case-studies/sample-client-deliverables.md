@@ -52,6 +52,30 @@ The public screenshot set is intentionally predictable:
 | `10-monitoring-dashboard.png` | show monitoring visibility |
 | `11-incident-report.png` | show final report or handover note |
 
+## Public Screenshot Set
+
+![Diagnostics run](../../screenshots/public/01-diagnostics-run.png)
+
+![Report folder](../../screenshots/public/02-report-folder.png)
+
+![Container state before fix](../../screenshots/public/03-container-before.png)
+
+![Failed health check](../../screenshots/public/04-healthcheck-failed.png)
+
+![Scoped fix applied](../../screenshots/public/05-fix-applied.png)
+
+![Passing health check](../../screenshots/public/06-healthcheck-passed.png)
+
+![Backup created](../../screenshots/public/07-backup-created.png)
+
+![Checksum verified](../../screenshots/public/08-checksum-verified.png)
+
+![Restore test](../../screenshots/public/09-restore-test.png)
+
+![Monitoring dashboard](../../screenshots/public/10-monitoring-dashboard.png)
+
+![Incident report sample](../../screenshots/public/11-incident-report.png)
+
 ## What Good Output Looks Like
 
 A strong public support case study should let a reviewer answer these questions quickly:

@@ -68,6 +68,14 @@ For the simulated outage, the `web` container was intentionally stopped. In a re
 - restore test:
 - monitoring dashboard:
 
+## CI Evidence
+
+If this case study is based on the automated demo lab, link the successful run:
+
+- workflow run:
+- uploaded artifact:
+- artifact digest:
+
 ## Handover
 
 Deliverables from this workflow:

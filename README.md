@@ -88,6 +88,12 @@ GitHub Actions also runs the demo automatically and uploads evidence artifacts:
 docs/09-ci-evidence.md
 ```
 
+Published case study:
+
+```text
+docs/case-studies/ci-demo-lab.md
+```
+
 Start Uptime Kuma:
 
 ```bash

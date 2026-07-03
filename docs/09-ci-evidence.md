@@ -39,3 +39,11 @@ Every workflow run uploads a `demo-lab-evidence` artifact containing:
 - summary.
 
 This is public operational evidence that the toolkit works on a clean Linux runner. It does not replace manual screenshots for the portfolio case study, but it makes the repo more credible while screenshots are being prepared.
+
+## Published Case Study
+
+The first CI-backed case study is here:
+
+```text
+docs/case-studies/ci-demo-lab.md
+```

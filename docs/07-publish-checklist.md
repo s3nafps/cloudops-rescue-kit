@@ -43,6 +43,7 @@ for file in scripts/*.sh; do bash -n "$file"; done
 ## Freelance Validation
 
 - [ ] Screenshot 10 relevant job/gig examples.
-- [ ] Record buyer wording in `trackers/freelance-lead-validation-tracker.csv`.
+- [ ] Record buyer wording in `trackers/lead-validation-tracker.csv`.
 - [ ] Send 5 highly specific proposals.
 - [ ] Do not build a larger tool until repeated demand appears.
+- [ ] Review `docs/10-service-packages.md`, `docs/11-market-validation.md`, and `docs/12-outreach-templates.md`.

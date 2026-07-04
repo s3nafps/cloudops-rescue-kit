@@ -154,24 +154,6 @@ These are public examples of what a scoped client handoff can look like:
 - `screenshots/public/README.md` (public screenshot manifest)
 - `screenshots/public/captions.md` (case-study captions)
 
-## Example Service Mapping
-
-This repo supports three fixed-price services:
-
-- VPS Docker Rescue Audit
-- Backup And Restore Safety Net
-- Monitoring And Handover Setup
-
-Each service should produce evidence: screenshots, commands, report, and next steps.
-
-Public service and validation docs:
-
-```text
-docs/10-service-packages.md
-docs/11-market-validation.md
-docs/12-outreach-templates.md
-```
-
 ## Repo Status
 
 This project is intentionally small. Improvements should come from real support cases, job interviews, or repeated client questions.

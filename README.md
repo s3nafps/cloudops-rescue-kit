@@ -5,7 +5,7 @@
 
 CloudOps Rescue Kit is a practical portfolio project for Cloud/DevOps Support work. It helps diagnose small VPS/Docker deployments, add lightweight monitoring, create backups, test restores, and document the result in a way a client or hiring manager can inspect.
 
-This is not a SaaS. It is a low-cost support toolkit built around real operational problems:
+The toolkit is structured around common operational failure points:
 
 - "My Docker app is down."
 - "I do not know what is running on this VPS."
@@ -25,13 +25,12 @@ This is not a SaaS. It is a low-cost support toolkit built around real operation
 - `docs/` - runbooks, screenshot checklist, case-study template, and safety notes.
 - `examples/` - client-ready sample deliverables and reusable templates.
 
-## Who This Helps
+## Intended Use
 
-- solo founders running a VPS,
-- small agencies supporting client apps,
-- developers with one Docker Compose server,
-- students or junior engineers building operational evidence,
-- support teams that need a simple handover process.
+- Linux VPS or Docker Compose environments
+- small support-oriented infrastructure reviews
+- reproducible portfolio evidence for Cloud/DevOps Support work
+- handover documentation and restore-proof workflows
 
 ## Requirements
 
@@ -69,9 +68,9 @@ Validate a Compose file:
 ./scripts/docker-compose-preflight.sh monitoring/docker-compose.uptime-kuma.yml
 ```
 
-## First Demo Lab
+## Demo Lab
 
-Use the demo lab to create real screenshots and a first case study without touching a client system:
+The demo lab creates publishable evidence without touching a live client system:
 
 ```bash
 docker compose -p cloudops-demo -f demo/docker-compose.demo.yml up -d
@@ -120,15 +119,15 @@ RESTORE_CONFIRM=YES ./scripts/restore-volume-backup.sh backups/myproject-2026070
 
 ## Safety Notes
 
-- Do not paste private keys, passwords, API tokens, or production `.env` files into issues, reports, screenshots, or chat.
+- Private keys, passwords, API tokens, and production `.env` files should never appear in issues, reports, screenshots, or chat.
 - The diagnostics script does not collect environment variables or full Docker inspect output by default.
-- Container logs can contain secrets. Use `--include-logs` only when you have permission and have reviewed the risk.
-- Test restore into a disposable volume first.
-- Stop write-heavy services before taking backups when consistency matters.
+- Container logs can contain secrets; `--include-logs` is intended only for approved use after risk review.
+- Restore validation is designed for a disposable test volume.
+- Backups are safest when write-heavy services are stopped first.
 
-## Suggested Portfolio Evidence
+## Suggested Evidence
 
-Publish these screenshots in a case study:
+Typical case-study evidence includes:
 
 1. Generated diagnostics report folder.
 2. Docker containers before fix.
@@ -141,11 +140,11 @@ Publish these screenshots in a case study:
 9. Uptime Kuma dashboard.
 10. Final incident report.
 
-Use `docs/00-case-study-template.md` and `docs/01-screenshots-checklist.md`.
+Reference material is available in `docs/00-case-study-template.md` and `docs/01-screenshots-checklist.md`.
 
-## Example Deliverables
+## Sample Deliverables
 
-These are public examples of what a scoped client handoff can look like:
+Public examples of handoff material:
 
 - `examples/sample-incident-report.md`
 - `examples/sample-handover-note.md`
@@ -156,4 +155,4 @@ These are public examples of what a scoped client handoff can look like:
 
 ## Repo Status
 
-This project is intentionally small. Improvements should come from real support cases, job interviews, or repeated client questions.
+This project is intentionally small and focused. Future improvements should reflect real support cases, interview questions, or repeated operational gaps.
